@@ -10,6 +10,7 @@
     <None Remove="Example3Encoding.json" />
     <None Remove="Example4FileDiscovery\Boo\Example4FileDiscovery.json" />
     <None Remove="Example4FileDiscovery\Foo\Example4FileDiscovery.json" />
+    <None Remove="Example5ReadingObject.json" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,6 +19,7 @@
     <EmbeddedResource Include="Example3Encoding.json" />
     <EmbeddedResource Include="Example4FileDiscovery\Boo\Example4FileDiscovery.json" />
     <EmbeddedResource Include="Example4FileDiscovery\Foo\Example4FileDiscovery.json" />
+    <EmbeddedResource Include="Example5ReadingObject.json" />
   </ItemGroup>
 
   <ItemGroup>
