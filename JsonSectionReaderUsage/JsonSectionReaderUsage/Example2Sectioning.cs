@@ -9,7 +9,7 @@ namespace JsonSectionReaderUsage
         [Test]
         public void Test()
         {
-            var name = JSectionReader.Section("Example2Sectioning.json").GetSection("employees", 1, "name").GetObject<string>();
+            var name =JSectionReader.Section("Example2Sectioning.json").GetSection("employees", 1, "name").GetObject<string>();
             Assert.AreEqual("richard", name);
         }
     }
