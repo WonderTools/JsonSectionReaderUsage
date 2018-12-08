@@ -13,6 +13,7 @@
     <None Remove="Example5ReadingObject.json" />
     <None Remove="Example6ReadingList.json" />
     <None Remove="Example7ReadingAsJson.json" />
+    <None Remove="Example8ListOfList.json" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,6 +25,7 @@
     <EmbeddedResource Include="Example5ReadingObject.json" />
     <EmbeddedResource Include="Example6ReadingList.json" />
     <EmbeddedResource Include="Example7ReadingAsJson.json" />
+    <EmbeddedResource Include="Example8ListOfList.json" />
   </ItemGroup>
 
   <ItemGroup>
