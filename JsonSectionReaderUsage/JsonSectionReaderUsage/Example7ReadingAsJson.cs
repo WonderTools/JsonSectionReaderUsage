@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using System;
+using NUnit.Framework;
 using WonderTools.JsonSectionReader;
 
 namespace JsonSectionReaderUsage
@@ -9,7 +10,9 @@ namespace JsonSectionReaderUsage
         [Test]
         public void Test()
         {
-            var data = new JSectionReader().Read("TableDataTests.json").GetSection("person").GetJson();
+            var expectedJson = "{\"name\":\"Nash\",\"id\":31433}";
+            var data = new JSectionReader().Read("Example7ReadingAsJson.json").GetSection("employees" , 1).GetJson();
+            Assert.AreEqual(expectedJson, data);
         }
     }
 }
